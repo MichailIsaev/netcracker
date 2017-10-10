@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataSourceBean/DataSourceBean.iml" filepath="$PROJECT_DIR$/DataSourceBean/DataSourceBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SessionBeansProject.iml" filepath="$PROJECT_DIR$/SessionBeansProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejb/ejb.iml" filepath="$PROJECT_DIR$/ejb/ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
