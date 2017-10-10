@@ -1,0 +1,62 @@
+#f {
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+#stext {
+    position: absolute;
+    top: 50px;
+}
+
+#s {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+#mult {
+    position: relative;
+    top: 60px;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+#div {
+    position: relative;
+    top: 60px;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+#sub {
+    position: relative;
+    top: 60px;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+#sum {
+    position: relative;
+    top: 60px;
+    font-size: medium;
+    background-color: whitesmoke;
+}
+
+#restext {
+    position: relative;
+    top: 80px;
+    font-weight: 600;
+}
+
+#result {
+    border: 3px solid palevioletred;
+    border-radius: 3px;
+    -webkit-border-radius: 4px;
+}
+
+
+
+
+
+
