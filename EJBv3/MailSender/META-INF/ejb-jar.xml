@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd"
+         version="3.1">
+    <enterprise-beans>
+        <session>
+            <ejb-name>MailSenderBean</ejb-name>
+            <business-remote>beans.mailsenderbean.MailSenderRemote</business-remote>
+            <ejb-class>beans.mailsenderbean.MailSenderBean</ejb-class>
+            <session-type>Stateless</session-type>
+        </session>
+        <session>
+            <ejb-name>MailReceiverBean</ejb-name>
+            <business-remote>beans.mailreceiverbean.MailReceiverLocal</business-remote>
+            <ejb-class>beans.mailreceiverbean.MailReceiverBean</ejb-class>
+            <session-type>Stateless</session-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
