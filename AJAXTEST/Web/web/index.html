@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function f(name){
+            var xhr=new XMLHttpRequest();
+            var url='index.html?name='+name;
+            xhr.open('GET',url,true);
+            xhr.onreadystatechange=callback(xhr);
+            xhr.send(null);
+
+        }
+        function callback(xhr){
+            if(xhr.state==4) {
+                if (xhr.status == 200) {
+                    alert(xhr.responseText)
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<form method="get">
+    <input id="name" name="name" type="text"/><br>
+    <input id="submit" name="submit" type="submit" onclick=f(document.getElementById('name')) />
+</form>
+</body>
+</html>
